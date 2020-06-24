@@ -202,9 +202,10 @@ button{
 
     @media (max-width: 1070px) {
         .container {
-           max-width: 90%;
+           
            padding: 20px;
-          font-size: 20px;   
+          font-size: 35px; 
+          width: 80%;  
      }
 
 
