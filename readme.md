@@ -40,8 +40,7 @@ Desenvolvimento do site da comunidade Pyladies na cidade de São Paulo.
 * CSS
   
 # LICENSE
-###Licença Pública Geral GNU v3.0
-
+### Licença Pública Geral GNU v3.0
 As permissões desta licença copyleft forte estão condicionadas a disponibilizar o código fonte completo das obras e modificações licenciadas, que incluem obras maiores usando uma obra licenciada, sob a mesma licença. Os avisos de direitos autorais e licença devem ser preservados. Os colaboradores fornecem uma concessão expressa de direitos de patente.
 
 # Autora
