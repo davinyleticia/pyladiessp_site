@@ -35,7 +35,7 @@ Desenvolvimento do site da comunidade Pyladies na cidade de São Paulo.
 ![Print Screen](./public/assets/print_screen.png)
 
 
-# Ferramentas ultilizada
+# Ferramentas ultilizadas
 
 * HTML
 * CSS
