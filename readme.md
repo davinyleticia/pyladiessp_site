@@ -21,7 +21,8 @@ Desenvolvimento do site da comunidade Pyladies na cidade de São Paulo.
 |           | main.css
 |       
 |---  repos_list # Pasta com arquivo readme com todos os links dos repositórios 
-|           | readme.md
+|     | readme.md
+|
 | 404.md
 | index.html
 | license
