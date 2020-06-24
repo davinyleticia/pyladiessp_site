@@ -63,8 +63,11 @@ button{
 
 
 #logo img{
-    width: 30%;
-    height: 30%;
+    width: 25%;
+    height: 25%;
+
+    
+    
     
 }
 
@@ -73,19 +76,20 @@ button{
     display: flex;
     align-content: center;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
  
 }
 
 #botoes img{
 
     width: 40px;
-    padding: 8px;
+    padding-right: 8px;
     
 }
 #botoes .botao{
-    margin: 10px;
-    padding: 7px;
+    margin: 6px;
+    padding: 4px;
+    padding-right: 15px;
     border-radius: 7px;
     justify-items: center;
     align-items: center;
