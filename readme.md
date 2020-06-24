@@ -18,9 +18,9 @@ Desenvolvimento do site da comunidade Pyladies na cidade de São Paulo.
 |     |     | youtube.svg
 |     | 
 |     |---  Style
-|     |     | main.css
-|     |     
-|     |---  repos_list # Pasta com arquivo readme com todos os links dos repositórios 
+|           | main.css
+|       
+|---  repos_list # Pasta com arquivo readme com todos os links dos repositórios 
 |           | readme.md
 | 404.md
 | index.html
