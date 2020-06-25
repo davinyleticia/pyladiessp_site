@@ -15,6 +15,7 @@ Desenvolvimento do site da comunidade Pyladies na cidade de São Paulo.
 |     |     | logo.png
 |     |     | treinamento.svg
 |     |     | twitter.svg
+|     |     | fundo.png
 |     |     | youtube.svg
 |     | 
 |     |---  Style
