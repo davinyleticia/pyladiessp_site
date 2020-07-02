@@ -166,20 +166,21 @@ h1 {
     .container {
         padding: 20px;
         font-size: 35px;
-        width: 80%;
+        width: 95%;
     }
     #logo img {
         width: 40%;
         height: initial;
     }
     .gh-ribbon {
-        height: 55px;
-        width: 380px;
-        top: 160px;
-        right: -150px;
+        height: 65px;
+        width: 450px;
+        top: 190px;
+        right: -185px;
     }
     .gh-ribbon a {
-        font-size: 33px;
+        font-size: 40px;
+        font-style: oblique;
     }
     #botoes {
         display: block;
