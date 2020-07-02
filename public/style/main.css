@@ -72,21 +72,23 @@ h1 {
 
 #logo img {
     width: 25%;
-    height: 35%;
+
 }
 
 .contato .icons {
     padding: 1em 5%;
-    gap: 0.5em;
+    gap: 0.9em;
     align-content: center;
     justify-content: center;
     text-align: center;
+
 }
 
 .contato a {
     color: #c62e4b;
     font-size: 3em;
     transition: text-shadow 1s;
+
 }
 
 .contato a:active,
