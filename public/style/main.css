@@ -8,7 +8,7 @@ body {
     line-height: 1.5;
     color: #000103;
     background-color: rgb(110, 95, 110);
-    margin-top: 40px;
+    margin: 20px;
 }
 
 a {
@@ -63,7 +63,7 @@ h1 {
 }
 
 .container {
-    width: 50%;
+    width: 60%;
     margin: auto;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
@@ -72,6 +72,7 @@ h1 {
 
 #logo img {
     width: 25%;
+    height: 35%;
 }
 
 .contato .icons {
@@ -158,61 +159,6 @@ h1 {
     text-align: center;
 }
 
-#sidebar {
-    background-color: rgba(255, 241, 241, 0.8);
-    width: 46px;
-    position: fixed;
-    top: 30%;
-    left: 0px;
-    margin: 5px;
-    border-radius: 8px;
-    justify-content: center;
-}
-
-#sidebar .youtube span {
-    display: flex;
-    background: url('../assets/youtube.svg') no-repeat;
-    width: 25px;
-    height: 25px;
-    margin: 10px;
-    padding-right: 5px;
-}
-
-#sidebar .likedin span {
-    display: flex;
-    background: url('../assets/linkedin.svg') no-repeat;
-    width: 25px;
-    height: 25px;
-    margin: 10px;
-    padding-right: 5px;
-}
-
-#sidebar .twitter span {
-    display: flex;
-    background: url('../assets/twitter.svg') no-repeat;
-    width: 25px;
-    height: 25px;
-    margin: 10px;
-    padding-right: 5px;
-}
-
-#sidebar .facebook span {
-    display: flex;
-    background: url('../assets/facebook.svg') no-repeat;
-    width: 25px;
-    height: 25px;
-    margin: 10px;
-    padding-right: 5px;
-}
-
-#sidebar .instagram span {
-    display: flex;
-    background: url('../assets/instagram.svg') no-repeat;
-    width: 25px;
-    height: 25px;
-    margin: 10px;
-    padding-right: 5px;
-}
 
 @media (max-width: 1070px) {
     .container {
@@ -221,31 +167,8 @@ h1 {
         width: 80%;
     }
     #logo img {
-        width: 50%;
-    }
-    #sidebar {
-        background-color: rgba(252, 252, 252, 0);
-        top: 30%;
-    }
-    #sidebar .youtube span {
-        width: 50px;
-        height: 50px;
-    }
-    #sidebar .likedin span {
-        width: 50px;
-        height: 50px;
-    }
-    #sidebar .twitter span {
-        width: 50px;
-        height: 50px;
-    }
-    #sidebar .facebook span {
-        width: 50px;
-        height: 50px;
-    }
-    #sidebar .instagram span {
-        width: 50px;
-        height: 50px;
+        width: 40%;
+        height: initial;
     }
     .gh-ribbon {
         height: 55px;
@@ -260,7 +183,13 @@ h1 {
         display: block;
         width: 95%;
     }
+   
+#botoes img {
+    width: 80px;
+    padding-right: 8px;
+    align-items: center;
 }
+
 
 @media (max-width: 700px) {
     #botoes .botao {
