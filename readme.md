@@ -2,21 +2,18 @@
 
 Desenvolvimento do site da comunidade Pyladies na cidade de São Paulo.
 
-# Estrutura do site
+
+
+## Estrutura do site
 ```bash
 /
 |--- Public # Pasta com conteúdo a ser rederizado
 |     |---- assets
-|     |     | facebook.svg
-|     |     | github.svg
-|     |     | instagram.svg
-|     |     | linkedin.svg
-|     |     | favicon.png
-|     |     | logo.png
+|     |     | Background.jpg
+|     |     | Favicon
+|     |     | logo_aprender.png
+|     |     | print_screen.png
 |     |     | treinamento.svg
-|     |     | twitter.svg
-|     |     | fundo.png
-|     |     | youtube.svg
 |     | 
 |     |---  Style
 |           | main.css
@@ -30,20 +27,24 @@ Desenvolvimento do site da comunidade Pyladies na cidade de São Paulo.
 | readme.md 
 ```
 
-# Print Screen
+## Print Screen
 
 
 ![Print Screen](./public/assets/print_screen.png)
+ Print Screen do layout Base, feito pela Daviny
 
 
-# Ferramentas ultilizadas
+## Ferramentas ultilizadas
 
 * HTML
 * CSS
   
-# LICENSE
-### Licença Pública Geral GNU v3.0
+## License
+
+#### Licença Pública Geral GNU v3.0
+
 As permissões desta licença copyleft forte estão condicionadas a disponibilizar o código fonte completo das obras e modificações licenciadas, que incluem obras maiores usando uma obra licenciada, sob a mesma licença. Os avisos de direitos autorais e licença devem ser preservados. Os colaboradores fornecem uma concessão expressa de direitos de patente.
 
-# Autora
-[Daviny Vidal](http://davinyvidal.github.io)
+##### Considerações finais
+Layout baseado do layout inicial proposto pela
+[Daviny Vidal](http://davinyvidal.github.io), sendo feito com 💜 para comunidade PyladiesSP
