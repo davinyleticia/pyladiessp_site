@@ -1,102 +1,132 @@
-body{
-    background: url(../assets/fundo.png);
+body {
+    background: url(../assets/background.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
     font-family: 'Abel', sans-serif;
-    font-size:18px;
-    line-height:1.5;
-    color:#000103;
-    background-color:rgb(110, 95, 110);
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000103;
+    background-color: rgb(110, 95, 110);
     margin-top: 40px;
-    
-   
-    }
+}
 
-a{
-    color:#000000;
-    text-decoration:none}
+a {
+    color: #000000;
+    text-decoration: none
+}
 
-a:hover{
-    text-decoration:underline
-    }
-b,strong{
-    font-weight:600
-    }
-hr,.rule{
-    height:0;
-    margin:15px 0;
-    overflow:hidden;
-    background:transparent;
-    border:0;
-    border-bottom:1px solid #746577
-    }
-    
+a:hover {
+    text-decoration: underline
+}
 
-hr::before,.rule::before{
-    display:table;content:""
-    }
-hr::after,.rule::after{
-    display:table;clear:both;content:""
-    }
-  
+b,
+strong {
+    font-weight: 600
+}
 
-td,th{
-    padding:0
-    }
-button{
-    cursor:pointer;
-    border-radius:0;
-    }
+hr,
+.rule {
+    height: 0;
+    margin: 15px 0;
+    overflow: hidden;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #746577
+}
 
-    h1{
+hr::before,
+.rule::before {
+    display: table;
+    content: ""
+}
+
+hr::after,
+.rule::after {
+    display: table;
+    clear: both;
+    content: ""
+}
+
+td,
+th {
+    padding: 0
+}
+
+button {
+    cursor: pointer;
+    border-radius: 0;
+}
+
+h1 {
     font-family: 'Yanone Kaffeesatz', cursive;
-    }
+}
 
-
-    
-.container{
-    width: 50%; 
+.container {
+    width: 50%;
     margin: auto;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 20px;
 }
-       
 
-
-#logo img{
-    width: 35%;
- 
+#logo img {
+    width: 25%;
 }
 
+.contato .icons {
+    padding: 1em 5%;
+    gap: 0.5em;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
 
-#botoes{
+.contato a {
+    color: #c62e4b;
+    font-size: 3em;
+    transition: text-shadow 1s;
+}
+
+.contato a:active,
+.contato a:hover {
+    text-decoration: none;
+    text-shadow: 0px 0px 70px rgb(255, 0, 255);
+}
+
+.tags {
     display: flex;
     align-content: center;
     justify-content: center;
-    padding: 20px;
- 
 }
 
-#botoes img{
+#botoes {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+}
 
+#botoes img {
     width: 40px;
     padding-right: 8px;
-    
 }
-#botoes .botao{
+
+#botoes .botao {
     margin: 6px;
     padding: 4px;
     padding-right: 15px;
     border-radius: 7px;
     justify-items: center;
     align-items: center;
-    
     display: flex;
-    background-color: rgb(86, 94, 71);
+    font-family: 'Roboto', sans-serif;
+    /*background-color: rgb(86, 94, 71);*/
+    background-color: rgb(85, 11, 11);
 }
 
-#botoes a{
-
-    color: rgba(255, 255, 255, 0.801);
+#botoes a {
+    color: whitesmoke;
 }
 
 .gh-ribbon {
@@ -105,17 +135,18 @@ button{
     right: -80px;
     top: 80px;
     -webkit-transform: rotate(-90deg);
-          transform: rotate(-90deg);
+    transform: rotate(-90deg);
     width: 200px;
     z-index: 1;
     white-space: nowrap;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #c95555;
-    -webkit-box-shadow: 0 0 2px rgba(100,100,100,0.4);
-          box-shadow: 0 0 2px rgba(100,100,100,0.4);
+    -webkit-box-shadow: 0 0 2px rgba(100, 100, 100, 0.4);
+    box-shadow: 0 0 2px rgba(100, 100, 100, 0.4);
     padding: 1px 0;
-    }
-    .gh-ribbon a {
+}
+
+.gh-ribbon a {
     text-decoration: none !important;
     border: 1px solid rgb(0, 0, 0);
     color: rgb(0, 0, 0);
@@ -125,165 +156,117 @@ button{
     outline: medium none;
     padding: 4px 1px 2px;
     text-align: center;
+}
+
+#sidebar {
+    background-color: rgba(255, 241, 241, 0.8);
+    width: 46px;
+    position: fixed;
+    top: 30%;
+    left: 0px;
+    margin: 5px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+#sidebar .youtube span {
+    display: flex;
+    background: url('../assets/youtube.svg') no-repeat;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    padding-right: 5px;
+}
+
+#sidebar .likedin span {
+    display: flex;
+    background: url('../assets/linkedin.svg') no-repeat;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    padding-right: 5px;
+}
+
+#sidebar .twitter span {
+    display: flex;
+    background: url('../assets/twitter.svg') no-repeat;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    padding-right: 5px;
+}
+
+#sidebar .facebook span {
+    display: flex;
+    background: url('../assets/facebook.svg') no-repeat;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    padding-right: 5px;
+}
+
+#sidebar .instagram span {
+    display: flex;
+    background: url('../assets/instagram.svg') no-repeat;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    padding-right: 5px;
+}
+
+@media (max-width: 1070px) {
+    .container {
+        padding: 20px;
+        font-size: 35px;
+        width: 80%;
     }
-
-
-    #sidebar{
-        background-color: rgba(255, 241, 241, 0.8);
-        width: 46px;
-        position: fixed;
-        top: 30%;
-        left: 0px;
-        margin: 5px;
-        border-radius: 8px;
-        justify-content: center;
-    
-    }
-    
-    #sidebar .youtube span{
-        display: flex;
-     
-        background: url('../assets/youtube.svg') no-repeat;
-        width: 25px;
-        height: 25px;
-        margin: 10px;
-        padding-right: 5px;
-        
-    
-    }
-    #sidebar .likedin span{
-        display: flex;
-      
-        background: url('../assets/linkedin.svg') no-repeat;
-        width: 25px;
-        height: 25px;
-        margin: 10px;
-        padding-right: 5px;
-    
-    }
-
-
-
-    #sidebar .twitter span{
-        display: flex;
-      
-        background: url('../assets/twitter.svg') no-repeat;
-        width: 25px;
-        height: 25px;
-        margin: 10px;
-        padding-right: 5px;
-    
-    }
-
-
-    #sidebar .facebook span{
-        display: flex;
-      
-        background: url('../assets/facebook.svg') no-repeat;
-        width: 25px;
-        height: 25px;
-        margin: 10px;
-        padding-right: 5px;
-    
-    }
-
-    #sidebar .instagram span{
-        display: flex;
-      
-        background: url('../assets/instagram.svg') no-repeat;
-        width: 25px;
-        height: 25px;
-        margin: 10px;
-        padding-right: 5px;
-    
-    }
-
-
-
-    @media (max-width: 1070px) {
-        .container {
-           
-           padding: 20px;
-          font-size: 35px; 
-          width: 80%;  
-     }
-
-
-     #logo img{
+    #logo img {
         width: 50%;
-       
-        
     }
-    
-   
-   #sidebar{
-       
-      background-color: rgba(252, 252, 252, 0);    
-      top:30%;
-  
-  }
-   #sidebar .youtube span{
-
-      width: 50px;
-      height: 50px;
-  
-  }
-   #sidebar .likedin span{
-
-      width: 50px;
-      height: 50px;
-    
-  }
-
-  #sidebar .twitter span{
-
-    width: 50px;
-    height: 50px;
-  
-}
-
-
-#sidebar .facebook span{
-
-    width: 50px;
-    height: 50px;
-  
-}
-
-
-#sidebar .instagram span{
-
-    width: 50px;
-    height: 50px;
-  
-}
-
-  .gh-ribbon{
-    height:55px;
-    width: 380px;
-    top: 160px;
-    right: -150px;
-    
-  }
-
-  .gh-ribbon a {
-    font-size: 33px;
-  }
-
-
-  #botoes {
-    display: block;
-    width: 95%;
-}
-
+    #sidebar {
+        background-color: rgba(252, 252, 252, 0);
+        top: 30%;
     }
-
-    @media (max-width: 700px) {    
-        #botoes .botao {
-            display: block;    
-        
-        }
-        #botoes img {
-            display: block;       
-        }
+    #sidebar .youtube span {
+        width: 50px;
+        height: 50px;
     }
+    #sidebar .likedin span {
+        width: 50px;
+        height: 50px;
+    }
+    #sidebar .twitter span {
+        width: 50px;
+        height: 50px;
+    }
+    #sidebar .facebook span {
+        width: 50px;
+        height: 50px;
+    }
+    #sidebar .instagram span {
+        width: 50px;
+        height: 50px;
+    }
+    .gh-ribbon {
+        height: 55px;
+        width: 380px;
+        top: 160px;
+        right: -150px;
+    }
+    .gh-ribbon a {
+        font-size: 33px;
+    }
+    #botoes {
+        display: block;
+        width: 95%;
+    }
+}
+
+@media (max-width: 700px) {
+    #botoes .botao {
+        display: block;
+    }
+    #botoes img {
+        display: block;
+    }
+}
