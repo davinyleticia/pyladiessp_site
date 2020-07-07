@@ -12,17 +12,17 @@ body {
 }
 
 a {
-    color: #000000;
-    text-decoration: none
+    color: #04145c;
+    text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline
+    text-decoration: underline;
 }
 
 b,
 strong {
-    font-weight: 600
+    font-weight: 600;
 }
 
 hr,
