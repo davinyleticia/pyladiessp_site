@@ -132,6 +132,19 @@ h1 {
     color: whitesmoke;
 }
 
+#direitos{
+	display: flex;
+    	align-content: center;
+  
+    	padding: 3px;
+	
+}
+
+#direitos p{
+      font-size: 13px;
+      padding: 2px;
+      justify-content: center;
+}
 
 
 @media (max-width: 1070px) {
