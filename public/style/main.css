@@ -132,34 +132,6 @@ h1 {
     color: whitesmoke;
 }
 
-.gh-ribbon {
-    display: block;
-    position: absolute;
-    right: -80px;
-    top: 80px;
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    width: 200px;
-    z-index: 1;
-    white-space: nowrap;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: #c95555;
-    -webkit-box-shadow: 0 0 2px rgba(100, 100, 100, 0.4);
-    box-shadow: 0 0 2px rgba(100, 100, 100, 0.4);
-    padding: 1px 0;
-}
-
-.gh-ribbon a {
-    text-decoration: none !important;
-    border: 1px solid rgb(0, 0, 0);
-    color: rgb(0, 0, 0);
-    display: block;
-    font-size: 13px;
-    font-weight: 100;
-    outline: medium none;
-    padding: 4px 1px 2px;
-    text-align: center;
-}
 
 
 @media (max-width: 1070px) {
@@ -172,16 +144,7 @@ h1 {
         width: 40%;
         height: initial;
     }
-    .gh-ribbon {
-        height: 65px;
-        width: 450px;
-        top: 190px;
-        right: -185px;
-    }
-    .gh-ribbon a {
-        font-size: 40px;
-        font-style: oblique;
-    }
+  
     #botoes {
         display: block;
         width: 95%;
