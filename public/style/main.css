@@ -72,14 +72,22 @@ h1 {
 
 #logo img {
     width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+}
+.contato{
+
+
 }
 
 .contato .icons {
-    padding: 1em 5%;
+
     gap: 0.9em;
     align-content: center;
-    justify-content: center;
     text-align: center;
+    margin: 0 auto;
+
 }
 
 .contato a {
@@ -105,7 +113,7 @@ h1 {
     display: flex;
     align-content: center;
     justify-content: center;
-    padding: 10px;
+    padding: 6px;
 }
 
 #botoes img {
@@ -131,8 +139,9 @@ h1 {
 }
 
 #direitos{
+
     font-size: 13px;
-    padding: 2px;
+    padding: 30px;
 }
 
 #direitos p{
