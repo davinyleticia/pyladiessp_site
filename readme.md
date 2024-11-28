@@ -31,6 +31,7 @@ Desenvolvimento do site da comunidade Pyladies na cidade de São Paulo.
 
 
 ![Print Screen](https://raw.githubusercontent.com/davinyleticia/pyladiessp_site/refs/heads/master/public/assets/print_screen.png)
+
  Print Screen do layout Base, feito pela Daviny
 
 
