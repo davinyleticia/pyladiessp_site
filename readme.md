@@ -48,4 +48,4 @@ As permissões desta licença copyleft forte estão condicionadas a disponibiliz
 
 ##### Considerações finais
 Layout baseado do layout inicial proposto pela
-[Daviny Vidal](http://davinyvidal.github.io), sendo feito com 💜 para comunidade PyladiesSP
+Daviny Letícia Vidal, sendo feito com 💜 para comunidade PyladiesSP
